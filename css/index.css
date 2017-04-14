@@ -1,0 +1,545 @@
+
+/* * @Author: lenovo
+* @Date:   2017-04-11 09:31:33
+* @Last Modified by:   lenovo
+* @Last Modified time: 2017-04-12 09:27:59
+*/ 
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	/*font-size: 12px;*/
+	-webkit-tap-highlight-color: rgba(0,0,0,0); 
+	-webkit-appearance: none;/*安卓不支持*/
+	-webkit-text-size-adjust: 100%;
+	-webkit-user-select: none;	
+	-webkit-overflow-scrolling: touch;
+	<a href="tel:110">请拨打电话110</a>
+	<a href="mailto:qq@.com">请发送邮件qq@.com</a>
+	-webkit-user-select:none;user-select:none;
+	 -webkit-tap-highlight-color:rgba(255,255,255,0); 
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+	-webkit-transform: translate(0,0,0);
+	/*transform: translate3d(0, 0, 0);*/
+
+}
+a{
+	display: block;
+}
+img{
+	display: block;
+}
+
+html,body{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+body{
+	overflow: scroll;
+}
+/* 头部开始 */
+.header{
+	width: 100%;
+	height: 0.43rem;
+	background: #DADADA;
+	border-top: 0.01rem solid #DADADA;
+}
+.header input{
+	display: block;
+	width: 3.55rem;
+	height: 0.3rem;
+	margin: 0 auto;
+	margin-top: 0.05rem;
+	font-size: 0.2rem;
+	border-radius:0.05rem; 
+	border: 0;
+}
+/* 头部结束 */
+/* banner1 开始 */
+.banner1{
+	width: 100%;
+	height: 2.29rem;
+}
+/* banner1 结束 */
+/* banner2 开始 */
+.banner2{
+	width: 100%;
+	height: 1.04rem;
+}
+/* banner 结束 */
+/* 导航栏开始 */
+.nav{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	/* 换行 */
+	justify-content: space-around;
+	/* 多余部分平均分配 */
+}
+.nav1{
+	width: 0.8rem;
+	height: 1rem;
+	align-items: center;
+}
+.nav1 img{
+	margin: 0 auto;
+	margin-top: 0.07rem;
+	width: 0.5rem;
+}
+.nav span{
+	display: block;
+	font-size: 0.18rem;
+	text-align: center;
+	margin-top: 0.05rem;
+}
+/* 导航栏结束 */
+/* 栏目开始 */
+.column{
+	width: 100%;
+	height: 0.4rem;
+	border-top: 0.01rem solid #fff;
+}
+.column1{
+	width: 0.63rem;
+	height: 0.16rem;
+	margin-top: 0.1rem;
+	float: left;
+}
+.column2{
+	width: 2.76rem;
+	height: 0.16rem;
+	float: left;
+	margin-top: 0.1rem;
+}
+.columna{
+	width: 0.62rem;
+	height: 0.16rem;
+	float: left;
+}
+.columna a{
+	font-size: 0.14rem;
+	text-decoration: none;
+	text-align: center;
+}
+.columnb{
+	width: 2.14rem;
+	height: 0.16rem;
+	float: left;
+}
+.columnb a{
+	font-size: 0.14rem;
+	color: #000;
+	text-decoration: none;
+}
+/* 栏目结束 */
+/* 标题开始 */
+.title{
+	width: 100%;
+	height: 0.35rem;
+	background: #DADADA;
+}
+.title h1{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.35rem;
+}
+.title1{
+	width: 100%;
+	height: auto;
+	background: #fff;
+	overflow: hidden;
+}
+.titlea{
+	width: 50%;
+	height: 2.67rem;
+	border: 1px solid #DADADA;
+	box-sizing: border-box;
+	float: left;
+}
+.titlea1{
+	width: 0.99rem;
+	height: 0.24rem;
+	border: 0.001rem solid #fff;
+	margin: 0 auto;
+	border-radius: 0.2rem;
+}
+.titlea1 img{
+	width: 0.17rem;
+	float: left;
+	margin: 0.03rem 0.05rem;
+}
+.titlea3{
+	width: 0.62rem;
+	height: 0.17rem;
+	float: left;
+	margin: 0.03rem 0.05rem;
+}
+.titlea3 a{
+	color: #000;
+	font-size: 0.08rem;
+	text-decoration: none;
+	line-height: 0.17rem;
+}
+.titlea4{
+	width: 1.67rem;
+	height: 1.67rem;
+	margin: 0 auto;
+}
+.titlea4 img{
+	width: 1.67rem;
+}
+.titlea h1{
+	.color: #000;
+	font-size: 0.14rem;
+	text-align: center;
+}
+.titlea h2{
+	font-size: 0.14rem;
+	text-align: center;
+	color: #FF7B7B;
+}
+/* 标题结束 */
+/* 图片开始 */
+.tp{
+	width: 100%;
+	height: 3rem;
+}
+.tup{
+	width: 100%;
+	height: 2rem;
+	background: red;
+}
+.tup img{
+	width: 100%;
+
+}
+.tup1{
+	width: 100%;
+	height: 0.4rem;
+	padding: 0.1rem 0.2rem .0.2rem;
+	box-sizing: border-box;
+}
+.tup1 h1{
+	font-size: 0.18rem;
+	color: #000;
+}
+.tup2{
+	width: 100%;
+	height: 0.4rem;
+	padding: 0rem 0.2rem .0.2rem;
+	box-sizing: border-box;
+}
+.tup2 p{
+	font-size: 0.16rem;
+	color: #999999;
+}
+.tupa{
+	width: 100%;
+	height: 0.42rem;
+	background: #DADADA;
+}
+.tupa h1{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.42rem;
+}
+.tupa1{
+	width: 100%;
+	height: 1.76rem;
+}
+.tupa1 img{
+	width: 100%;
+}
+/* 图片结束 */
+/* 内容开始 */
+.content{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.content1{
+	width: 50%;
+	height: 2.7rem;
+	border-right: 0.01rem solid #DADADA;
+	border-bottom: 0.01rem solid #DADADA;
+	box-sizing: border-box;
+	float: left;
+}
+.content2{
+	width: 1.63rem;
+	height: 1.63rem;
+	margin: 0 auto;
+}
+.content2 img{
+	width: 100%;
+}
+.contenta{
+	width: 1.68rem;
+	height: 0.85rem;
+	margin: 0 auto;
+}
+.contenta1{
+	width: 1.68rem;
+	height: 0.2rem;
+	margin-top: 0.1rem;
+}
+.contenta1 h1{
+	font-size: 0.2rem;
+}
+.contenta2{
+	width: 1.68rem;
+	height: 0.2rem;
+	margin-top: 0.1rem;
+}
+.contenta2 p{
+	font-size: 0.14rem;
+	color: #999999;
+}
+.contenta3{
+	width: 1.68rem;
+	height: 0.2rem;
+	margin-top: 0.1rem;
+}
+.contenta3 h2{
+	font-size: 0.2rem;
+	color: #FF5555;
+}
+.content1a{
+	width: 50%;
+	height: 2.7rem;
+	border-bottom: 0.01rem solid #DADADA;
+	box-sizing: border-box;
+	float: left;
+}
+.content2a{
+	width: 1.63rem;
+	height: 1.63rem;
+	margin: 0 auto;
+}
+.content2a img{
+	width: 100%;
+}
+.contenta0{
+	width: 1.68rem;
+	height: 0.85rem;
+	margin: 0 auto;
+}
+.contenta1{
+	width: 1.68rem;
+	height: 0.2rem;
+	margin-top: 0.1rem;
+}
+.contenta1 h1{
+	font-size: 0.2rem;
+}
+.contenta2{
+	width: 1.68rem;
+	height: 0.2rem;
+	margin-top: 0.1rem;
+}
+.contenta2 p{
+	font-size: 0.14rem;
+	color: #999999;
+}
+.contenta3{
+	width: 1.68rem;
+	height: 0.2rem;
+	margin-top: 0.1rem;
+}
+.contenta3 h2{
+	font-size: 0.2rem;
+	color: #FF5555;
+}
+/* 内容结束 */
+/* 智能车品开始 */
+.content1{
+	width: 50%;
+	height: 2.7rem;
+	border-right: 0.01rem solid #DADADA;
+	border-bottom: 0.01rem solid #DADADA;
+	box-sizing: border-box;
+	float: left;
+}
+.zn{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.zn1{
+	width: 100%;
+	height: 1.63rem;
+	margin: 0 auto;
+	background: blue;
+}
+.zn1 img{
+	width: 100%;
+}
+.contenta{
+	width: 1.68rem;
+	height: 0.85rem;
+	margin: 0 auto;
+}
+.contenta1{
+	width: 1.68rem;
+	height: 0.2rem;
+	margin-top: 0.1rem;
+}
+.contenta1a h1{
+	font-size: 0.03rem;
+}
+.contenta2{
+	width: 1.68rem;
+	height: 0.2rem;
+	margin-top: 0.1rem;
+}
+.contenta2 p{
+	font-size: 0.14rem;
+	color: #999999;
+}
+.contenta3{
+	width: 1.68rem;
+	height: 0.2rem;
+	margin-top: 0.1rem;
+}
+.contenta3 h2{
+	font-size: 0.2rem;
+	color: #FF5555;
+}
+.content1a{
+	width: 50%;
+	height: 2.7rem;
+	border-bottom: 0.01rem solid #DADADA;
+	box-sizing: border-box;
+	float: left;
+}
+.content2a{
+	width: 1.63rem;
+	height: 1.63rem;
+	margin: 0 auto;
+}
+.content2a img{
+	width: 100%;
+}
+.contenta0{
+	width: 1.68rem;
+	height: 0.85rem;
+	margin: 0 auto;
+}
+.contenta1{
+	width: 1.68rem;
+	height: 0.2rem;
+	margin-top: 0.1rem;
+}
+.contenta2{
+	width: 1.68rem;
+	height: 0.2rem;
+	margin-top: 0.1rem;
+}
+.contenta2 p{
+	font-size: 0.14rem;
+	color: #999999;
+}
+.contenta3{
+	width: 1.68rem;
+	height: 0.2rem;
+	margin-top: 0.1rem;
+}
+.contenta3 h2{
+	font-size: 0.2rem;
+	color: #FF5555;
+}
+/* 智能车品结束 */
+/* 智能穿戴开始 */
+.cd{
+	width: 100%;
+	height: 0.42rem;
+	background: #DADADA;
+}
+.cd h1{
+	color: #000;
+	font-size: 20px;
+	text-align: center;
+}
+.contenta1c h1{
+	font-size: 0.1rem;
+}
+/* 智能穿戴结束 */
+/* 底部开始 */
+.bottom{
+	width: 100%;
+	height: 0.51rem;
+	background: #DADADA;
+}
+.bottom1 h1{
+	font-size: 0.2rem;
+	text-align: center;
+	line-height: 0.51rem;
+}
+.bottoma{
+	width: 100%;
+	height: 0.93rem;
+	border-bottom: 0.01rem solid #DADADA;
+}
+.bottoma1{
+	width: 1.14rem;
+	height: 0.61rem;
+	float: left;
+	margin-left: 0.05rem;
+	margin-top: 0.2rem;
+	border-right: 	0.01rem solid #DADADA;
+}
+.bottoma1 img{
+	width: 0.39rem;
+	margin: 0 auto;
+}
+.bottoma1 h1{
+	font-size: 0.14rem;
+	text-align: center;
+}
+.bottoma2{
+	width: 1.14rem;
+	height: 0.61rem;
+	float: left;
+	margin-left: 0.05rem;
+	margin-top: 0.2rem;
+}
+.bottoma2 img{
+	width: 0.39rem;
+	margin: 0 auto;
+}
+.bottoma2 h1{
+	font-size: 0.14rem;
+	text-align: center;
+}
+.bottoma3{
+	width: 100%;
+	height: 0.65rem;
+}
+/* 底部结束 */
+/* 回顶部开始 */
+.fixed{
+	bottom: 0.65rem;
+	position:fixed;
+	right: 0.04rem;
+}
+/* 回顶部结束 */
+/* 底部固定不动 开始 */
+.gd{
+	width: 100%;
+	height: 0.65rem;
+	position:absolute;
+	bottom: 0;
+	left: 0;
+}
+.gd1{
+	width: 25%;
+	height: 0.65rem;
+	background: #fff;
+	float: left;
+	border-top: 0.01rem solid #DADADA;
+}
+/* 底部固定不动 结束 */
